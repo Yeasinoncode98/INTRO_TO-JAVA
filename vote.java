@@ -64,11 +64,10 @@ public class vote {
         Candidate local = new LocalCandidate("Jashore", 110, "Yeasin", "AwamiLeague");
         Candidate national = new NationalCandidate("Khulna", 220, "Arafat", "BNP");
 
-        local.displayInfo();
-        national.displayInfo();
-
         local.showBasicInfo();
+        local.displayInfo();
         national.showBasicInfo();
+        national.displayInfo();
 
     }
 }
