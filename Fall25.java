@@ -48,6 +48,7 @@ public class Fall25 {
         System.out.println("SUB: " + c.subtract());
         System.out.println("MUL: " + c.multi());
         System.out.println("DIV: " + c.divide());
+        System.out.println("Calculator is working fine");
 
     }
 }
