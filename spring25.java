@@ -38,6 +38,11 @@ class FullTimeEmployee extends PermanentEmployee {
     FullTimeEmployee(String name, int ID, double salary, double bonus) {
         super(name, ID, salary, bonus);
     }
+
+    @Override
+    double calculateSalary() {
+        return salary + bonus;
+    }
 }
 
 class contractEmployee extends Employee {
